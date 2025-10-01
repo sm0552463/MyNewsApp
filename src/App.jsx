@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import News from "./components/News";
 import LoadingBar from "react-top-loading-bar";
+import Chatbot from "./components/Chatbot";
 
 const App = () => {
   const pageSize = 5;
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/sports" element={<News setProgress={setProgress} apiKey={apiKey} key="sports" pageSize={pageSize}  category="sports"/>} />
         <Route path="/technology" element={<News setProgress={setProgress} apiKey={apiKey} key="technology" pageSize={pageSize}  category="technology"/>} />
       </Routes>
+      
     </Router>
   );
 };

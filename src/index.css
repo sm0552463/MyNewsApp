@@ -1,3 +1,5 @@
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -77,3 +79,9 @@ button:focus-visible {
   
 
 }
+#main_container{
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+}
+
